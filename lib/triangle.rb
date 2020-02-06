@@ -19,4 +19,6 @@ class Triangle
     end
   end
   
+  def 
+  
 end
