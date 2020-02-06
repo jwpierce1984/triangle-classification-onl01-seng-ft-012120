@@ -20,7 +20,7 @@ class Triangle
   end
   
   def validate_triangle
-    if (a+b<c)
+    real_triangle = ((a+b>c) && (a+c>b) && (b+c>a))
   end
   
 end
