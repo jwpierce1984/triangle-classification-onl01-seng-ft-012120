@@ -14,6 +14,9 @@ class Triangle
     elsif
       a == b || b == c || a == c
       :isosceles
+    else
+      :scalene
+    end
   end
   
 end
