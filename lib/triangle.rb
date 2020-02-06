@@ -19,6 +19,8 @@ class Triangle
     end
   end
   
-  def 
+  def validate_triangle
+    if (a+b<c)
+  end
   
 end
