@@ -23,7 +23,9 @@ class Triangle
     real_triangle = [(a + b > c), (a + c > b), (b + c > a)]
     real_triangle.each do |side|
       real_triangle << false if side <= 0
-    raise 
+    raise TriangleError
   end
   
+  class TriangleError < StandardError
+  end
 end
